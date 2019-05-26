@@ -12,7 +12,7 @@ class FullPost extends Component {
     this.loadData();
   }
 
-  componentedDidUpdate() {
+  componentDidUpdate() {
     this.loadData();
   }
 
