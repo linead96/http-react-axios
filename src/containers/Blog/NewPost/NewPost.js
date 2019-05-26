@@ -13,10 +13,8 @@ class NewPost extends Component {
   };
 
   componentDidMount() {
-    // const query = new URLSearchParams(this.props.location.search);
-    // for (let param of query.entries()) {
-    //   console.log("newpost", param);
-    // }
+    // If unath => this.props.history.replace('/posts');
+    console.log(this.props);
   }
 
   postDataHandler = () => {
